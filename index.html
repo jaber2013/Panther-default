@@ -47,7 +47,12 @@ Lyon.">
 
 	<link rel="canonical" href="https://j-patlmx.github.io/laPanterekc/">
 	<link media="screen" rel="shortcut icon" type="image/ico" href="favicon.ico">
-	<link media="screen" rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<!-- <link media="screen" rel="stylesheet" type="text/css" href="./css/bootstrap.css"> -->
+	<link media="screen" rel="preload" href="./css/bootstrap.css" as="style"
+		onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="styles.css">
+	</noscript>
 	<link media="screen" rel="stylesheet" type="text/css" href="style.css">
 	<link media="screen" rel="stylesheet" type="text/css" href="./css/et-line.css">
 
